@@ -1,7 +1,7 @@
 # Platform-Science-Challenge
 Platform Science - Coding Assessment 
 ## Drivers Screen
-![image](https://user-images.githubusercontent.com/47154815/223803036-41de5c47-aa4c-4647-b17c-0ae8364eb047.png)
+![Screenshot_20230308_113154](https://user-images.githubusercontent.com/47154815/223803797-46430c56-e486-4ce7-a7cd-23456714d372.png)
 ## Shipment Screen
-![image](https://user-images.githubusercontent.com/47154815/223803156-07b8b1cd-9570-4d71-a512-91322581ea5b.png)
+![Screenshot_20230308_113135](https://user-images.githubusercontent.com/47154815/223803755-0481f65f-cda6-4c47-a81a-c436d48de521.png)
 
