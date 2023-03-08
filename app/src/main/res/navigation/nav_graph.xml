@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/DriversFragment">
+
+    <fragment
+        android:id="@+id/DriversFragment"
+        android:name="com.constantin.platformscienceapp.ui.drivers.DriversFragment"
+        android:label="@string/drivers_fragment_title"
+        tools:layout="@layout/fragment_drivers">
+
+        <action
+            android:id="@+id/action_DriversFragment_to_ShipmentFragment"
+            app:destination="@id/ShipmentFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/ShipmentFragment"
+        android:name="com.constantin.platformscienceapp.ui.shipment.ShipmentFragment"
+        android:label="@string/shipment_fragment_title"
+        tools:layout="@layout/fragment_shipment">
+
+        <action
+            android:id="@+id/action_ShipmentFragment_to_DriversFragment"
+            app:destination="@id/DriversFragment" />
+        <argument
+            android:name="driverId"
+            app:argType="string" />
+    </fragment>
+</navigation>

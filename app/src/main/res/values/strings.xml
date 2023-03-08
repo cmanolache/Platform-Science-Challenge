@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PlatformScienceApp</string>
+    <string name="driver_name">John Smith</string>
+    <string name="drivers_fragment_title">Drivers</string>
+    <string name="shipment_fragment_title">Shipment</string>
+
+    <string name="shipment_text">Shipment: \n%1$s</string>
+</resources>
